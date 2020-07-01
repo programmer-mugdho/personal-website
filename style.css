@@ -84,6 +84,7 @@ p {
 
 .work-image img {
     width: 100%;
+    cursor: pointer;
 }
 
 .image-container {
@@ -111,13 +112,35 @@ p {
     margin-top: 0;
 }
 
+a {
+    text-align: center;
+}
+
 .client-review {
     width: 30%;
     display: block;
-    margin: auto;
+    text-align: center;
     color: black;
+    margin: auto;
 }
 
 .message {
     width: 40%;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 10px;
+    padding: 42px 30px;
+}
+
+footer p {
+    text-align: center;
+}
+
+.email {
+    font-size: 25px;
+}
+
+.leave-msg{
+    font-size: 15px;
 }
